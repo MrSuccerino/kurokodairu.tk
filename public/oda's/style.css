@@ -4,23 +4,25 @@ body {
 	transition-delay: 0s;
 }
 
-h1{  // Oda's koffertspill
-  cursor: Default;
+h1{
+  cursor:default;
   margin:auto;
   text-align:center;
-  padding-top:15%;
+  padding-top:20%;
   padding-bottom:15px;
 }
 
-#btn {  // Reload button
-  margin:0;
-  padding:0;
-  margin-top:90;
-  height: 25px;
-  width: 75;
+th{
+  cursor:default;
 }
 
-button {   // Case buttons 
+#btn {  /*Reload button*/
+  margin:center;
+  height:25px;
+  width:75px;
+}
+
+button {
   text-align:center;
 	background-color: black;
 	border-radius:5px;
@@ -36,29 +38,30 @@ button {   // Case buttons
   margin: 5px;
 }
 
-#textInput{ // textbox
- font-size:40px;
+#textInput{
+ text-font:arial;
+ font-size:20px;
  text-align:center;
- width:75px;
+ width:95px;
  margin:auto;
  display:block;
 }
 
-button:hover { // hovering on buttons
-  color: hotpink;
+button:hover {
+  color: red;
   
 }
 
-button:active { // Case buttons - on click
+button:active { 
 	position:relative;
 	top:3px;
 }
 
-#winText{ // text that shows how much we win or loose
-  cursor: Default;
+#winText{
+  cursor:default;
+  color:white;
   width: 100%;
   font-family: arial;
   font-size: 125%;
   text-align: center;
-  margin-top:90;
 }

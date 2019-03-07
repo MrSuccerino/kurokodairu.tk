@@ -62,7 +62,6 @@ function showWin(box) { // Shows text with winnings or loss
 }
 }
 
-
 function case1() { // Case 1's task
   var elem = document.getElementById("c1");
     elem.innerHTML = cases.c1.value;
@@ -100,6 +99,7 @@ function case6() {// Case 6's task
   showWin(box);
 }
 
+
 function reload() { // Reloads all the variables
   document.getElementById("c1").innerHTML = "CASE 1";
   document.getElementById("c2").innerHTML = "CASE 2";
@@ -107,13 +107,13 @@ function reload() { // Reloads all the variables
   document.getElementById("c4").innerHTML = "CASE 4";
   document.getElementById("c5").innerHTML = "CASE 5";
   document.getElementById("c6").innerHTML = "CASE 6";
-  document.getElementById("winText").innerHTML = '';
+  document.getElementById("winText").innerHTML = 'Sett inn den summen du ønsker og spille for ';
 
   randomize();
 }
 
 randomize(); // colors on background
-var colors = ["red","yellow","orange"];
+var colors = ["blue","purple","red"];
 var currentIndex = 0;
 
 setInterval(function() {
@@ -124,3 +124,11 @@ setInterval(function() {
 	}
 }, 1000);
 
+setInterval(function(){
+  if(document.getElementById("textInput").value > 1000) {
+    document.getElementById("textInput").value = 1000;
+  }
+  if(document.getElementById("textInput").value < 0) {
+    document.getElementById("textInput").value = 1;
+  }
+}, 250);
