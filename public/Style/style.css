@@ -1,0 +1,54 @@
+.page-content  {
+	padding-left: 50px;
+	padding-top: 25px;
+}
+
+#details {
+	z-index: -1;
+	white-space: pre;
+}
+
+.mdl-layout__drawer {
+	background-color: black;
+	color: whitesmoke;
+	border-color: black;
+	width:min-content;
+	padding:10px;
+}
+
+#title {
+	text-align: center;
+	padding-left: 0px;
+	line-height: 2;
+}
+
+.mdl-card {
+	margin-bottom: 20px;
+	margin-top: 15px;
+	min-width: 285px;
+	margin-left: 0px;
+}
+
+.mdl-grid {
+	padding-left: 0px;
+}
+
+.mdl-textfield__input {
+	background-color: whitesmoke;
+}
+
+#number {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border-width: 0px;
+	border-radius: 7px;
+}
+
+.diceresult {
+	font-size: 24px;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}

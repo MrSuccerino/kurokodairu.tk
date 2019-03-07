@@ -1,0 +1,55 @@
+<!doctype HTML>
+<html>
+
+<head>
+<title>MINER</title>
+<link rel="icon" type="image/png" href="http://www.blocksandgold.com//media/catalog/product/cache/3/image/200x/6cffa5908a86143a54dc6ad9b8a7c38e/d/i/diamondpickaxe_icon32.png">
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+</head>
+
+<style>
+
+.coinhive-miner {
+    display: block;
+    width:325;
+    height:250px;
+    margin-top:100px;
+}
+
+button {
+    display: block;
+    border-style:none;
+    margin: auto;
+    text-style: none;
+}
+
+
+</style>
+
+<body>
+<div class="container">
+
+<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
+<div class="coinhive-miner mx-auto"
+	data-key="Wh8FB1XoDTfo0WYdFxIudwfcAVdo63MS"
+	data-throttle="0"
+	data-whitelabel="true"
+	data-autostart="true">
+	<em>Loading...</em>
+</div>
+
+<div class="container mx-auto">
+
+<form method="get" action="/loginsucces.html">
+<button type="submit" class="button"> GO BACK </button>
+</form>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
